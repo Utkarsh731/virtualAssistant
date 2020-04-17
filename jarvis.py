@@ -5,7 +5,7 @@ import pyttsx3
 
 engine=pyttsx3.init()
 
-client=wolframalpha.Client("Y93EGX-V3WRJLWQXG")
+client=wolframalpha.Client(api_key)
 sg.theme('DarkBLue')
 layout = [
             [sg.Text('Search'), sg.InputText()],
